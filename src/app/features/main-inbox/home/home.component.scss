@@ -1,0 +1,30 @@
+.recruiter-home-wrapper {
+    display: flex;
+    flex: 1 1;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
+.list-job-left {
+    width: 40%;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    .first-item-inner {
+        border: 2px solid red;
+        border-radius: 5px;
+        display: flex;
+        flex: 1 1;
+        .info-created-date {
+            padding-top: 20px !important;
+            padding-left: 15px !important;
+            color: rgb(188, 184, 186);
+        }
+        .info-right {
+            display: flex;
+            flex: 1;
+            padding-top: 20px !important;
+            padding-right: 25px !important;
+            justify-content: flex-end !important;
+            
+        }
+    }
+}
