@@ -1,0 +1,26 @@
+<div class="custom-container"
+    *ngFor="let job of jobs; let i = index"
+    [ngClass]="{'selected': i === selectedItemIndex, 'deselected': i !== selectedItemIndex}"
+    (click)="toggleSelection(i)">
+    <div class="header-job-description">
+        <div class="info-created-date">{{job.createdDate}}</div>
+        <div class="info-right">
+            <div class="info-right-content">{{job.superhot}}</div>
+            <div class="arrow"></div>
+        </div>
+    </div>
+    <div class="job-name">{{job.jobName}}</div>
+    <div class="logo-company">{{job.logoCompany}}</div>
+    <div class="view-salary">&dollar; {{job.viewSalary}}</div>
+    <div class="row-dashed">&nbsp;</div>
+    <div class="office">{{job.office}}</div>
+    <div class="location">{{job.location}}</div>
+    <div class="skills">
+        <div *ngFor="let kill of job.skills" class="skill-item">{{kill.name}}</div>
+    </div>
+    <div class="row-dashed">&nbsp;</div>
+    <div class="benefits" *ngFor="let benefit of job.benefits">
+        <div class="benefit-item">{{benefit.name}}</div>
+    </div>
+    <div class="space_2"></div>
+</div>

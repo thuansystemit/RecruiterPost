@@ -1,0 +1,129 @@
+.custom-container {
+    border: 2px solid rgb(250, 224, 224);
+    border-radius: 5px !important;
+    background: rgb(253, 244, 234);
+    margin-bottom: 10px !important;
+    .header-job-description,
+    .job-name,
+    .logo-company,
+    .view-salary,
+    .office,
+    .location {
+      padding-left: 15px !important;
+    }
+    .first-job-row-seven {
+      padding-left: 15px !important;
+    }
+
+    .header-job-description {
+      display: flex;
+      flex: 1 1;
+      .info-created-date {
+        padding-top: 20px !important;
+        color: rgb(188, 184, 186);
+        font-size: 18px !important;
+      }
+      .info-right {
+        display: flex;
+        flex: 1;
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+        justify-content: flex-end !important;
+        font-size: 20px !important;
+        .info-right-content {
+          padding: 12px 10px !important;
+          background: rgb(218, 55, 57);
+          color: rgb(255, 255, 255);
+          border-radius: 10px !important;
+          font-weight: bold;
+        }
+        .arrow {
+            position: absolute;
+            margin-top: 36px !important;
+            width: 0;
+            height: 0;
+            border-right: 20px solid transparent;
+            border-top: 20px solid  rgb(218, 55, 57); /* Change the color as needed */
+            transform: rotate(90deg); 
+          } 
+      }
+    }
+
+    .job-name {
+      font-size: 20px !important;
+      font-weight: bold;
+      padding-top: 5px !important;
+      padding-bottom: 10px !important;
+    }
+
+    .logo-company {
+      padding-top: 5px !important;
+      padding-bottom: 10px !important;
+      font-size: 18px !important;
+      color: rgb(125, 121, 119);
+    }
+
+    .view-salary {
+      padding-top: 5px !important;
+      padding-bottom: 10px !important;
+      font-size: 20px !important;
+      color: rgb(125, 121, 119);
+      text-decoration: underline;
+      font-weight: bold;
+    }
+
+    .row-dashed {
+      margin-left: 5px !important;
+      margin-right: 5px !important;
+      padding-bottom: 2px !important;
+      border-bottom: dashed 1px rgb(125, 121, 119);
+    }
+
+    .office {
+      padding-top: 18px !important;
+      padding-bottom: 10px !important;
+      color: rgb(125, 121, 119);
+      font-size: 16px !important;
+    }
+
+    .location {
+      padding-top: 3px !important;
+      color: rgb(125, 121, 119);
+      font-size: 16px !important;
+    }
+
+    .skills {
+      margin: 5px 0 10px 15px !important;
+      display: flex;
+      flex: 1 1;
+
+      .skill-item {
+        background: rgb(255, 255, 255);
+        color: rgb(125, 121, 119);
+        padding: 5px 8px !important;
+        border: 1px solid rgb(125, 121, 119);
+        border-radius: 5px !important;
+        margin-right: 5px !important;
+      }
+    }
+
+    .benefits {
+      font-size: 18px !important;
+      // padding: 20px 0 22px 15px !important;
+      .benefit-item {
+        padding: 8px !important;
+        color: rgb(125, 121, 119);
+      }
+    }
+    .space_2 {
+      display: block;
+      // top: 15px !important;
+      margin-top: 20px !important;
+    }
+}
+.selected {
+    border: 2px solid rgb(218, 55, 57);
+}
+.deselected {
+  border: 2px solid rgb(250, 224, 224);
+}

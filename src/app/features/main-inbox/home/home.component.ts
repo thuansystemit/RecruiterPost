@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
+  sharedData: any;
+
+  updateSharedData(data: any) {
+    this.sharedData = data;
+  }
 
 }

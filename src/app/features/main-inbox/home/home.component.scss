@@ -6,124 +6,20 @@
   }
   
   .list-job-left {
-    width: 40%;
+    width: 40% !important;
     margin: 0 10px !important;
-  
-    .wrapper-first-job-item {
-      border: 2px solid red;
-      border-radius: 5px !important;
-      background: rgb(253, 244, 234);
-  
-      .first-job-row-one,
-      .first-job-row-two,
-      .first-job-row-three,
-      .first-job-row-four,
-      .first-job-row-six,
-      .first-job-row-seven {
-        padding-left: 15px !important;
-      }
-  
-      .first-job-row-one {
-        display: flex;
-        flex: 1 1;
-        .info-created-date {
-          padding-top: 20px !important;
-          color: rgb(188, 184, 186);
-          font-size: 18px !important;
-        }
-        .info-right {
-          display: flex;
-          flex: 1;
-          padding-top: 20px !important;
-          padding-bottom: 20px !important;
-          justify-content: flex-end !important;
-          font-size: 20px !important;
-          .info-right-content {
-            padding: 5px 10px !important;
-            background: rgb(218, 55, 57);
-            color: rgb(255, 255, 255);
-            border-radius: 5px !important;
-            font-weight: bold;
-          }
-        }
-      }
-  
-      .first-job-row-two {
-        font-size: 20px !important;
-        font-weight: bold;
-        padding-top: 5px !important;
-        padding-bottom: 10px !important;
-      }
-  
-      .first-job-row-three {
-        padding-top: 5px !important;
-        padding-bottom: 10px !important;
-        font-size: 18px !important;
-        color: rgb(125, 121, 119);
-      }
-  
-      .first-job-row-four {
-        padding-top: 5px !important;
-        padding-bottom: 10px !important;
-        font-size: 20px !important;
-        color: rgb(125, 121, 119);
-        text-decoration: underline;
-        font-weight: bold;
-      }
-  
-      .first-job-row-dotted {
-        margin-left: 5px !important;
-        margin-right: 5px !important;
-        padding-bottom: 2px !important;
-        border-bottom: dashed 1px rgb(125, 121, 119);
-      }
-  
-      .first-job-row-six {
-        padding-top: 18px !important;
-        padding-bottom: 10px !important;
-        color: rgb(125, 121, 119);
-        font-size: 16px !important;
-      }
-  
-      .first-job-row-seven {
-        padding-top: 3px !important;
-        color: rgb(125, 121, 119);
-        font-size: 16px !important;
-      }
-  
-      .first-job-row-eight {
-        margin: 5px 0 10px 15px !important;
-        display: flex;
-        flex: 1;
-  
-        .first-job-row-eight-inner {
-          background: rgb(255, 255, 255);
-          color: rgb(125, 121, 119);
-          padding: 5px 8px !important;
-          border: 1px solid rgb(125, 121, 119);
-          border-radius: 5px !important;
-          margin-right: 5px !important;
-        }
-      }
-  
-      .first-job-row-nine {
-        font-size: 18px !important;
-        padding: 20px 0 22px 15px !important;
-  
-        .first-job-row-nine-inner {
-          padding: 5px !important;
-          color: rgb(125, 121, 119);
-        }
-      }
+    .space_1 {
+      margin-top: 10% !important;
     }
-  
-    .space {
+    .space_2 {
       margin-top: 5px !important;
     }
   }
   .detail-job {
-    .detail-job-inner {
-        overflow-y: scroll;
-        max-height: 500px !important;
+    margin: 0 10px !important;
+    width: 60% !important;
+    
+    .space-detail-job-inner {
+      margin-top: 10% !important;
     }
   }
