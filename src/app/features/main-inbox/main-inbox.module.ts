@@ -4,10 +4,12 @@ import { MainInboxComponent } from './main-inbox.component';
 import { MainInboxRoutingModule } from './main-inbox-routing.module';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatTabsModule } from '@angular/material/tabs';
+import { UserDetailComponent } from './user-detail/user-detail.component';
 
 @NgModule({
     declarations: [
         MainInboxComponent,
+        UserDetailComponent
     ],
     schemas: [
         CUSTOM_ELEMENTS_SCHEMA,

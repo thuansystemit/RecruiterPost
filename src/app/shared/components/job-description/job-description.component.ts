@@ -12,10 +12,13 @@ export class JobDescriptionComponent {
     this.selectedItemIndex = index;
     this.dataChanged.emit(this.jobs[index]);
   }
+  showColorPriority(value: string) {
+    return 'HOT' === value;
+  }
   jobs = [
     {
     'createdDate': 'Posted 6 hours ago',
-    'superhot': 'SUPER HOT',
+    'priority': 'SUPER HOT',
     'jobName': 'Java Developer (Java 8+, Spring Boot)',
     'logoCompany': 'Logo bbv Vietnam',
     'viewSalary': 'Sign in to view Salary',
@@ -53,7 +56,7 @@ export class JobDescriptionComponent {
   },
   {
     'createdDate': 'Posted 6 hours ago',
-    'superhot': 'SUPER HOT',
+    'priority': 'SUPER HOT',
     'jobName': 'Senior Java Developer (J2EE/Spring)',
     'logoCompany': 'Logo bbv Vietnam',
     'viewSalary': 'Sign in to view Salary',
@@ -90,7 +93,7 @@ export class JobDescriptionComponent {
   },
   {
     'createdDate': 'Posted 6 hours ago',
-    'superhot': 'SUPER HOT',
+    'priority': 'SUPER HOT',
     'jobName': 'Singapore Java Fullstack Developer (Spring) Up to $3000',
     'logoCompany': 'Logo bbv Vietnam',
     'viewSalary': 'Sign in to view Salary',
@@ -127,7 +130,7 @@ export class JobDescriptionComponent {
   },
   {
     'createdDate': 'Posted 6 hours ago',
-    'superhot': 'SUPER HOT',
+    'priority': 'SUPER HOT',
     'jobName': 'Mid Java Developer (MySQL/ Spring)',
     'logoCompany': 'Logo bbv Vietnam',
     'viewSalary': 'Sign in to view Salary',
@@ -164,7 +167,7 @@ export class JobDescriptionComponent {
   },
   {
     'createdDate': 'Posted 6 hours ago',
-    'superhot': 'HOT',
+    'priority': 'HOT',
     'jobName': 'Java Developer (Java 8+, Spring Boot)',
     'logoCompany': 'Logo bbv Vietnam',
     'viewSalary': 'Sign in to view Salary',
@@ -201,7 +204,7 @@ export class JobDescriptionComponent {
   },
   {
     'createdDate': 'Posted 6 hours ago',
-    'superhot': 'SUPER HOT',
+    'priority': 'SUPER HOT',
     'jobName': 'Java Developer (Java 8+, Spring Boot)',
     'logoCompany': 'Logo bbv Vietnam',
     'viewSalary': 'Sign in to view Salary',

@@ -1,0 +1,17 @@
+.search-wrapper {
+    position: relative;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-top: 64px !important;
+    background-color: rgb(170, 193, 165);
+    .location {
+        margin-left: 30% !important;
+    }
+    .search {
+        margin-left: 5% !important;
+    }
+    .btn-search {
+        margin-left: 5% !important;
+    }
+}

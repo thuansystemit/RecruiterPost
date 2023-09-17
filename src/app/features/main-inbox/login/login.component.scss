@@ -1,0 +1,36 @@
+.login-form-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid green;
+    margin-top: 10% !important;
+    margin-left: 30% !important;
+    margin-right: 30% !important;
+}
+
+.login-form-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px !important;
+}
+
+.btn-custom-ok {
+    background-color: #004750;;
+    color: #fff;
+    width: 110px !important;
+}
+.btn-custom-cancel {
+    background-color: #004750;;
+    color: #fff;
+    width: 110px !important;
+    margin-left: 5px !important;
+    margin-right: 25px !important;
+}
+.msg-error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px !important;
+    color: red;
+}

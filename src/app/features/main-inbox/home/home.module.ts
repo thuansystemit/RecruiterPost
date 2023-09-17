@@ -4,11 +4,13 @@ import { HomeComponent } from './home.component';
 import { HomeRoutingModule } from './home-routing.module';
 import { JobDescriptionComponent } from 'src/app/shared/components/job-description/job-description.component';
 import { JobDetailComponent } from 'src/app/shared/components/job-detail/job-detail.component';
+import { SearchComponent } from 'src/app/shared/components/search/search.component';
 
 @NgModule({
     declarations: [
         HomeComponent,
         JobDescriptionComponent,
+        SearchComponent,
         JobDetailComponent
     ],
     schemas: [

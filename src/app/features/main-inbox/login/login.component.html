@@ -1,0 +1,16 @@
+<div class="login-form-content">
+    <div class="content-inner">
+        <h2>Login Form</h2>
+        <form [formGroup]="form">
+            <formly-form
+                [form]="form"
+                [fields]="fields"
+                [model]="model">
+            </formly-form>
+        </form>
+    </div>
+</div>
+<div class="login-form-btn">
+    <button class="btn btn-custom-ok" [disabled]="!form.valid">Submit</button>
+    <button class="btn btn-custom-cancel">Cancel</button>
+</div>

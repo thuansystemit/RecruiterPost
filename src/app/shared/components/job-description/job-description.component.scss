@@ -23,7 +23,7 @@
         color: rgb(188, 184, 186);
         font-size: 18px !important;
       }
-      .info-right {
+      .info-priority {
         display: flex;
         flex: 1;
         padding-top: 20px !important;
@@ -36,6 +36,12 @@
           color: rgb(255, 255, 255);
           border-radius: 10px !important;
           font-weight: bold;
+        }
+        .orange {
+          background: rgb(237, 180, 60);
+        }
+        .arrow-organce {
+          border-top: 20px solid  rgb(237, 180, 60) !important; /* Change the color as needed */
         }
         .arrow {
             position: absolute;
