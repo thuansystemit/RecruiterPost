@@ -1,5 +1,80 @@
-<div class="detail-job-inner">
-
-    {{sharedData?.jobName}}
-
+<div class="detail-job-inner" *ngIf="sharedData.isViewDetails" [ngClass]="!sharedData.isViewDetails ? 'without-border' : 'wrapper-border'">
+    <div class="header-top">
+        <div class="logo">
+            logo
+        </div>
+        <div class="info-company">
+            <p class="job-name">Java Developer (1 – 2-year experiences)</p>
+            <p class="company-name">Renesas Design Vietnam</p>
+            <p class="view-salary">Sign in to view salary</p>
+        </div>
+    </div>
+    <div class="apply">
+        <div class="text-info">Apply now</div>
+    </div>
+    <div class="row-line row-dashed">&nbsp;</div>
+    <div class="wrapper-detail-job-inner">
+        <div class="location">31 Tan Thuan, District 7, Ho Chi Minh </div>
+        <div class="office">Office</div>
+        <div class="createdDate">2 days</div>
+        <div class="skills">
+            <div class="skill-text-info">Skills: </div>
+            <div class="skill-item">Java</div>
+            <div class="skill-item">SQL</div>
+            <div class="skill-item">Oracle</div>
+        </div>
+        <div class="row-line row-doted">&nbsp;</div>
+        <div class="benefit">
+            <p class="benefit-text">Top 3 reasons to join us</p>
+            <ul>
+                <li class="benefit-item">Cutting-edge technology in semiconductor design</li>
+                <li class="benefit-item">Competitive compensation and benefit package</li>
+                <li class="benefit-item">Young, dynamic, team-oriented working environment</li>
+            </ul>
+        </div>
+        <div class="row-line row-doted">&nbsp;</div>
+        <div class="job-description">
+            <p class="job-description-text">Job description</p>
+            <ul>
+                <li class="job-description-item">Design and implement Java applications that fulfill employer requirements in our web based reporting system</li>
+                <li class="job-description-item">Collaborate with/Support our internal customers to provide efficient solutions</li>
+                <li class="job-description-item">Develop reports in our web-based reporting system</li>
+                <li class="job-description-item">Ensure the usage of efficient, reusable, and reliable code</li>
+                <li class="job-description-item">Provide troubleshooting support to users as needed</li>
+            </ul>
+        </div>
+        <div class="row-line row-doted">&nbsp;</div>
+        <div class="skills-need">
+            <p class="skills-need-text">Your skills and experience</p>
+            <ul>
+                <li class="skill-need-item">A bachelor's or master's degree in computer science, software engineering, or another related field</li>
+                <li class="skill-need-item">Hands-on experience with Java programming</li>
+                <li class="skill-need-item">Hands-on experience with SQL queries, preferbly on Oracle database</li>
+                <li class="skill-need-item">Knowledgeable on web technologies (e.g. HTTP, XML, HTML, etc.)</li>
+                <li class="skill-need-item">Hands-on experience with at least one modern frontend technology, preferably React.js</li>
+                <li class="skill-need-item">Ability to work in large, collaborative teams to achieve organizational goals</li>
+                <li class="skill-need-item">Good verbal and written English communication skills</li>
+            </ul>
+            <p>Notes:</p>
+            <p>“All applicants are equal without any adversities based on their gender, ethnicity, age, sexual orientation, religion, region, education background or disability”. Equality in diversity at the workplace is about the fairness in giving the job opportunity as well as the hiring evaluation to every individual without any prejudice or bias on the mentioned grounds as above.</p>
+        </div>
+        <div class="row-line row-doted">&nbsp;</div>
+        <div class="love">
+            <p class="love-text">Your skills and experience</p>
+            <p>Renesas Design Vietnam Company Limited (RVC) aims to provide our employees with comprehensive compensation and benefit plans, and a professional working environment.</p>
+            <p>Some featured benefits are:</p>
+            <ul>
+                <li class="love-item">Competitive salary/bonus based on working performance.</li>
+                <li class="love-item">Laptop provided</li>
+                <li class="love-item">Free lunch, free parking</li>
+                <li class="love-item">Excellent training program.</li>
+                <li class="love-item">Opportunity for promotion.</li>
+                <li class="love-item">Fair assessment.</li>
+                <li class="love-item">24/24 hour insurance package including social and medical and unemployed insurance</li>
+                <li class="love-item">Dynamic people.</li>
+                <li class="love-item">Team-oriented environment.</li>
+                <li class="love-item">Sport activities and Annual company trip</li>
+            </ul>
+        </div>
+    </div>
 </div>

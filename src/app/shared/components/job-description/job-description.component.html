@@ -1,7 +1,7 @@
 <div class="custom-container"
     *ngFor="let job of jobs; let i = index"
     [ngClass]="{'selected': i === selectedItemIndex, 'deselected': i !== selectedItemIndex}"
-    (click)="toggleSelection(i)">
+    (click)="toggleSelection(i)" id="{{job.defineId + i}}">
     <div class="header-job-description">
         <div class="info-created-date">{{job.createdDate}}</div>
         <div class="info-priority">

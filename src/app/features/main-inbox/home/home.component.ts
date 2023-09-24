@@ -9,7 +9,11 @@ export class HomeComponent {
   sharedData: any;
 
   updateSharedData(data: any) {
-    this.sharedData = data;
+
+    this.sharedData = {
+      'isViewDetails': true,
+      'data': data
+    };
   }
 
 }

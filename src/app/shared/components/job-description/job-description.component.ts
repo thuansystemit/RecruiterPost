@@ -24,6 +24,7 @@ export class JobDescriptionComponent {
     'viewSalary': 'Sign in to view Salary',
     'office': 'At office',
     'location': 'Ho Chi Minh',
+    'defineId': 'keyId_',
     'skills': [{
       'id': 1,
       'name': 'Java'
@@ -62,6 +63,7 @@ export class JobDescriptionComponent {
     'viewSalary': 'Sign in to view Salary',
     'office': 'At office',
     'location': 'Ho Chi Minh',
+    'defineId': 'keyId_',
     'skills': [{
       'id': 1,
       'name': 'Java'
@@ -99,6 +101,7 @@ export class JobDescriptionComponent {
     'viewSalary': 'Sign in to view Salary',
     'office': 'At office',
     'location': 'Ho Chi Minh',
+    'defineId': 'keyId_',
     'skills': [{
       'id': 1,
       'name': 'Java'
@@ -136,6 +139,7 @@ export class JobDescriptionComponent {
     'viewSalary': 'Sign in to view Salary',
     'office': 'At office',
     'location': 'Ho Chi Minh',
+    'defineId': 'keyId_',
     'skills': [{
       'id': 1,
       'name': 'Java'
@@ -173,6 +177,7 @@ export class JobDescriptionComponent {
     'viewSalary': 'Sign in to view Salary',
     'office': 'At office',
     'location': 'Ho Chi Minh',
+    'defineId': 'keyId_',
     'skills': [{
       'id': 1,
       'name': 'Java'
@@ -210,6 +215,7 @@ export class JobDescriptionComponent {
     'viewSalary': 'Sign in to view Salary',
     'office': 'At office',
     'location': 'Ho Chi Minh',
+    'defineId': 'keyId_',
     'skills': [{
       'id': 1,
       'name': 'Java'

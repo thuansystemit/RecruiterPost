@@ -16,7 +16,8 @@
       flex: 1 1;
   }
   .custom-primary {
-     background: rgb(100 , 122, 112);
+   //   background: rgb(100 , 122, 112);
+      background: rgb(33, 114, 105);
      .logout {
       cursor: pointer;
       margin-right: 20px !important;
@@ -26,6 +27,6 @@
      color: black; // Replace 'red' with your desired text color
   }
   .navbar-bottom {
-     background: rgb(237,245,244);
+     background: rgb(248, 248, 248);
   }
 }

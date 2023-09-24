@@ -1,6 +1,118 @@
 .detail-job-inner {
-    position: fixed;
-    margin-top: 60px !important;
-    overflow-y: scroll;
-    max-height: 500px !important;
+    max-height: 750px !important;
+    .header-top {
+        display: flex;
+        flex: 1 auto;
+        .logo {
+            width: 15% !important;
+        }
+        .info-company {
+            width: 100% !important;
+            .job-name {
+                font-weight: bold !important;
+                font-size: 20px !important;
+            }
+            .company-name {
+                font-size: 14px !important;
+                color: rgb(65, 64, 66);
+            }
+            .view-salary {
+                color: rgb(125, 121, 119);
+                text-decoration: underline;
+                font-weight: bold;
+                cursor: pointer;
+            }
+        }
+    }
+    .apply {
+        display: block;
+        .text-info {
+            margin-left: 5% !important;
+            margin-right: 5% !important;
+            background: rgb(218, 56, 57) !important;
+            color: rgb(255, 255, 255) !important;
+            padding-top: 10px !important;
+            padding-bottom: 10px !important;
+            text-align: center;
+            border-radius: 6px !important;
+        }
+    }
+    .row-line {
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+        padding-bottom: 2px !important;
+    }
+    .row-dashed {
+
+        border-bottom: solid 1px rgb(125, 121, 119);
+    }
+    .row-doted {
+        border-bottom: dotted 1px rgb(125, 121, 119);
+    }
+    .wrapper-detail-job-inner {
+        overflow-y: scroll;
+        height: 400px;
+        .location,
+        .office,
+        .createdDate,
+        .skills,
+        .benefit,
+        .job-description,
+        .skills-need,
+        .love {
+            margin-top: 10px !important;
+            margin-bottom: 10px !important;
+            padding-left: 5% !important;
+            .benefit-text,
+            .job-description-text,
+            .skills-need-text,
+            .love-text {
+                font-weight: bold !important;
+                font-size: 20px !important;
+            }
+            .benefit-item,
+            .job-description-item,
+            .skill-need-item,
+            .love-item {
+                padding-top: 5px !important;
+                padding-bottom: 5px !important;
+            }
+            ul {
+                list-style: none;
+                padding-left: 1rem !important;
+            }
+            
+            ul li::before {
+                content: "\2022";
+                color: red;
+                font-weight: bold;
+                display: inline-block; 
+                width: 1em;
+                font-size: 1.5em;
+                margin-left: -1em;
+            }
+        }
+        .skills {
+            display: flex;
+            flex: 1 auto;
+            .skill-text-info {
+                padding-top: 7px !important;
+                padding-right: 10px !important;
+            }
+            .skill-item {
+                background: rgb(255, 255, 255);
+                color: rgb(125, 121, 119);
+                padding: 5px 8px !important;
+                border: 1px solid rgb(125, 121, 119);
+                border-radius:10px !important;
+                margin-right: 5px !important;
+            }
+        }
+    }
+}
+.wrapper-border {
+    border: 2px solid rgb(218, 55, 57);
+}
+.without-border {
+    border: none;
 }
